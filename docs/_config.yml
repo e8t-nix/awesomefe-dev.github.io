@@ -40,6 +40,19 @@ author:
   bio      : "Enjoy coding"
   location : "Somewhere, China"
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
